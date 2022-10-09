@@ -1,0 +1,207 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Black"
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Sections */
+.colored{
+  background-color:#ff4c68;
+  color:#fff;
+}
+
+.white{
+  background-color: #fff;
+
+}
+
+
+/* headings */
+.big-head{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-items{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+/* Download button */
+.btn1{
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 20%;
+  /* position:relative;
+  left:25%; */
+  transform: rotate(25deg);
+   position:absolute;
+   right:27%;
+  /*z-index: -1; */
+}
+
+
+/* features */
+#features{
+  position: relative;
+  /* z-index: 1; */
+}
+
+.ic{
+  /* margin:40px 100px; */
+  color:#ef8172;
+  margin-bottom: 1rem;
+  /* margin-left: 168px; */
+}
+
+.feature-title{
+  font-size: 1.5rem;
+
+}
+/* .circle{
+  display: inline-block;
+} */
+
+/* .ic1{
+  padding: 10px 0;
+} */
+
+
+.tx{
+  /* width: 250px;
+    position: relative;
+    left: 120px; */
+  padding:5%;
+}
+
+.ic:hover{
+  color: #ff4c68;
+}
+
+
+/* Testemonials */
+#testimonials{
+
+  background-color: #ef8172;
+}
+
+.testi{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+.prim{
+  width: 10%;
+  margin:20px 20px 50px;
+}
+
+
+/* pricing section */
+ #pricing{
+  padding:100px 90px;
+}
+
+ .card2{
+  margin:3% 0;
+}
+
+.pricetext{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*
+.card{
+  width:100rem;
+} */
+
+
+@media (max-width:1028px) {
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 50%;
+  }
+}
+
+
+#cta .container-fluid{
+  padding:7% 22%;
+}
+
+
+
+/* footer */
+#footer{
+  background-color: #fff;
+    margin: 0 auto;
+}
+
+.fic1{
+  margin:5%;
+  margin-bottom: 7px;
+}
+
+.fic{
+  margin: 1%;
+}
